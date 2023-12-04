@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans&display=swap");
+:root {
+  --timberwolf: #d4d3d2ff;
+  --yinmn-blue: #4757a0ff;
+  --french-gray: #b0b5d0ff;
+  --violet-blue: #4553a5ff;
+  --cool-gray: #979aacff;
+
+  --darkish-gray: #dddee0;
+  --medium-slate-blue: #806cfaff;
+  --antiflash-white: #f8f8f8;
+}
+* {
+  line-height: 1.6 !important;
+  letter-spacing: 2 !important;
+}
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+body {
+  background: url(./images/ultrawide-space-moon-earth-wallpaper-3f61e56f67312f66ceb6f8d96f2c16d6.jpg);
+  background-position: 50%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  border-radius: var(--radius);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 50vw;
+  background-image: url();
+  margin: 1rem auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #ececec;
+}
+
+.header {
+  height: 20vh;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  animation: fadeIn 5s;
+}
+
+.header img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.header-wrapper {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+footer {
+  height: 10vh;
+
+  width: 100%;
+}
+
+/* fonts */
+.user-friendly {
+  background-color: var(--antiflash-white);
+}
+
+.love {
+  color: #4f13cf;
+  font-family: "Gochi Hand", "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.coding {
+  font-family: consolas;
+  background-color: rgba(58, 106, 84, 0.1);
+}
+
+.sweets {
+  font-size: 11px;
+  color: gray;
+}
+#left-div,
+#right-div {
+  background-color: ;
+}
+
+#left-div {
+  position: sticky;
+  top: 25vh;
+  height: 65vh;
+  overflow: hidden;
+  z-index: 8;
+  background-color: #ececec;
+  background-image: url();
+}
+/* profile-pic */
+.image-holder img {
+  height: 60px;
+  width: 60px;
+}
+/* Modify brand and text color */
+.navbar {
+  color: black;
+}
+
+#right-div {
+  float: right;
+  height: auto;
+  /* background-color: var(--french-gray); */
+}
+
+.boxes {
+  height: 500px;
+  /* background-color: var(--cool-gray); */
+  margin: 1rem auto;
+  width: 100%;
+}
+
+/* inner-left-side holder */
+/* #developer-info-box-left {
+  background-image: url(./images/grid-5.jpg);
+  background-repeat: repeat;
+  object-fit: cover;
+} */
+
+/* developer-details */
+.dev-details {
+}
+.dev-details h2 {
+  font-family: "Beth ellen", "Courier New", Courier, monospace;
+}
+/* navigation */
+#navigation {
+}
+
+/* links */
+
+/* ul li */
+/* text style */
+
+ul li a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  font-size: !important;
+}
+
+ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+ul li a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+ul li a:hover::before {
+  transform: scaleX(1.25);
+}
+
+ul li {
+  list-style: none;
+}
+
+/* social links */
+.social-links {
+  display: flex;
+}
+.social-links img {
+  height: 60px;
+  padding: 2px;
+  margin: 0 5px 0 5px;
+  transition: transform 0.2s; /* Animation */
+}
+
+#developer-info-box-left {
+  margin: 2rem;
+  height: 62vh;
+  background-image: url();
+  background-repeat: repeat;
+  object-fit: cover;
+  padding: 100px;
+  position: fixed;
+  height: 100%;
+  width: 30%;
+  margin: 0px;
+}
+
+/* developer-details */
+.dev-details h2 {
+  font-family: "Beth ellen", "Courier New", Courier, monospace;
+  margin: 0 0 25px 20px;
+}
+
+/* navigation */
+#navigation {
+  margin-top: 22px;
+  height: 400px;
+}
+
+#navigation ul {
+}
+
+/* links */
+
+/* ul li */
+/* text style */
+
+ul li a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+ul li a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+ul li a:hover::before {
+  transform: scaleX(1.25);
+}
+
+ul li {
+  list-style: none;
+  font-size: 14px !important;
+  padding: 2px 2px;
+
+  margin: 2px;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+.social-links img {
+  height: 23px;
+  padding: 2px;
+  margin: 0 5px 0 5px;
+  transition: transform 0.2s; /* Animation */
+}
+
+/* right */
+/* #developer-info-box-right { */
+/* margin: 3rem;
+  height: 200vh;
+  width: 70%;
+  float: right;
+} */
+
+#landing {
+  padding: 4px;
+  background-color: #f8f8f8;
+}
+#projects h6,
+#tools h6,
+#contact h6 {
+  background-color: #11111b;
+  height: 50px;
+  width: 100%;
+  border-radius: 3px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#landing {
+}
+#projects,
+#tools,
+#contact {
+  border: 1px solid var(--timberwolf);
+  background-color: var(--antiflash-white);
+  padding: 10px;
+}
+#project-box {
+  background-color: #11111B
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+  animation: fadeIn 2s;
+}
+
+#project-box:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.section-category {
+  display: inline-block;
+  width: 210px;
+  padding-left: 10px;
+}
+.section-title {
+  margin-top: 1rem;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+section h6 {
+}
+
+/* html css tags */
+.section-list {
+  background-color: var(--antiflash-white) !important;
+  font-size: 12px !important;
+  color: #8147fc !important;
+  padding: 4px 8px !important;
+}
+
+.section-list:hover {
+  background-color: #e4deff !important;
+  font-size: 12px !important;
+  padding: 4px 8px !important;
+  text-decoration: none !important;
+}
+
+/* tools */
+#tools {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#tools p {
+  text-align: center;
+  padding-top: 2px;
+  font-size: 14px;
+}
+
+.box-frontend,
+.box-mern,
+.box-others {
+  display: flex;
+  justify-content: center;
+}
+
+.box-frontend img,
+.box-mern img,
+.box-others img {
+  height: 60px;
+  margin-right: 5px;
+  background-color: #fbfbff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+
+.box-frontend img:hover,
+.box-mern img:hover,
+.box-others img:hover {
+  height: 60px;
+  margin-right: 5px;
+  background-color: #fbfbff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+/* form */
+.blurred-box {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  top: calc(50% - 175px);
+  left: calc(50% - 125px);
+  background: inherit;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+/* Animations */
+button {
+  background: var(--medium-slate-blue) !important;
+  color: #fff !important;
+  border: 1px solid #000 !important;
+  border-radius: 4px;
+  padding: 0.2em 3em;
+  transition: 0.2s;
+}
+
+button:hover {
+  color: #000 !important;
+  transform: translate(0-25rem, 0.25rem) !important;
+  background: var(--pink) !important;
+  box-shadow: 0.21rem 0.21rem #000 !important;
+}
+
+/* hover 
+  */
+
+/* typewriter */
+.dev-details h6 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid rgb(15, 15, 15); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 2s steps(18, end), blink-caret 0.75s step-end infinite;
+  font-family: "Consolas", Courier, monospace;
+  animation-delay: 1s;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--cal-poly-green);
+  }
+}
+
+/* fadein effect for name */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* zoom hover social link */
+.social-links img:hover {
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* gradient-text */
+@media only screen and (max-width: 1080px) {
+  body {
+    background-color: lightblue;
+  }
+  .header {
+    display: none;
+  }
+  #left-div {
+    position: static;
+    top: 10px;
+    height: 45vh;
+    overflow: hidden;
+    z-index: 8;
+    background-color: #ececec;
+  }
+}
