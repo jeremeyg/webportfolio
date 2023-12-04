@@ -303,7 +303,7 @@ footer,
   padding: 10px;
 }
 #project-box {
-  background-color: #11111b;
+  background-color: #f8f8f8;
   border-radius: 5px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease;
@@ -477,6 +477,7 @@ button:hover {
   #left-div {
     position: static;
     top: 10px;
+    left: 15px;
     height: 45vh;
     overflow: hidden;
     z-index: 8;
