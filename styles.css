@@ -479,4 +479,23 @@ button:hover {
     z-index: 8;
     background-color: #ececec;
   }
+	.container {
+		width: 100%;
+		background-image: url();
+		margin: 1rem auto;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-color: #ececec;
+	}
+}
+
+@media only screen and (max-wdith: 600){
+	.container {
+		width: 100%;
+		background-image: url();
+		margin: 1rem auto;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-color: #ececec;
+	}
 }
